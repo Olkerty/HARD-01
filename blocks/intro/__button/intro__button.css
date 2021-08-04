@@ -1,0 +1,19 @@
+.intro__button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  border-radius: 4px;
+  width: 180px;
+  height: 50px;
+  background-image: linear-gradient(90deg, #319E75 0, #319E75 50%, #24B47E 50%, #24B47E 100%);
+  background-size: 200%;
+  background-position-x: 100%;
+  transition: background .2s ease-out;
+  margin-bottom: 167px;
+}
+
+  .intro__button:hover {
+    background-position-x: 0;
+    cursor: pointer;
+  }

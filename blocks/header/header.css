@@ -1,0 +1,12 @@
+.header {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 74px;
+}
+/*# sourceMappingURL=header.css.map */

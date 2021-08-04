@@ -1,0 +1,4 @@
+.intro__cannon {
+  display: flex;
+  flex-direction: row;
+}

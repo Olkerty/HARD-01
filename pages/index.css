@@ -1,0 +1,41 @@
+@import url(c:\Users\Vas-k\Documents\GitHub\HARD-01\vendor\normalize\normalize.css);
+@import url(c:\Users\Vas-k\Documents\GitHub\HARD-01\fonts\fonts.css);
+.body {
+  background-color: white;
+  color: black;
+  font-family: Inter;
+}
+
+.header {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 74px;
+}
+
+.header__link {
+  border: 1px solid red;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-left: 34px;
+  max-height: 18px;
+}
+
+.header__link:hover {
+  opacity: 0.75;
+}
+
+.header__link:last-of-type {
+  margin-right: 120px;
+}
+/*# sourceMappingURL=index.css.map */
