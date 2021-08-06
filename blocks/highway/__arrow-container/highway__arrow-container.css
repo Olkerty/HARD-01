@@ -1,0 +1,13 @@
+.highway__arrow-container {
+  margin-top: 50px;
+  width: 120px;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid blue;
+}
+/*# sourceMappingURL=highway__arrow-container.css.map */

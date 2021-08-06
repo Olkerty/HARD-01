@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACvB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACT",
+    "sources": [
+        "highway__slicker-item.scss"
+    ],
+    "names": [],
+    "file": "highway__slicker-item.css"
+}

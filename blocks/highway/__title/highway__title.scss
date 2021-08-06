@@ -1,0 +1,4 @@
+.highway__title {
+    @include titleText();
+    max-width: 460px;
+}

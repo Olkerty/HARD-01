@@ -1,0 +1,4 @@
+.section-title {
+  @include titleText();
+  border: 1px solid red;
+}

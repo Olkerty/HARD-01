@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,6BAA6B,CAAC;EAC1B,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "highway__bycicle-name_active.scss"
+    ],
+    "names": [],
+    "file": "highway__bycicle-name_active.css"
+}

@@ -1,0 +1,15 @@
+.header__mobile-menu-list {
+  width: 320px;
+  height: 566px;
+  margin: 0;
+  z-index: 10;
+  background-color: #F4F4F4;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}

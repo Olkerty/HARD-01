@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,+BAA+B,CAAC;EAC5B,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,KAAK;EACpB,cAAc,EAAE,IAAI;EACpB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,UAAU;EACvB,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "highway__bycicles-slicker-item.scss"
+    ],
+    "names": [],
+    "file": "highway__bycicles-slicker-item.css"
+}

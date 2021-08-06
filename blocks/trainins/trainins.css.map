@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;EACrB,YAAY,EAAE,KAAK;EACnB,aAAa,EAAE,KAAK;EACpB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CACjC",
+    "sources": [
+        "trainins.scss"
+    ],
+    "names": [],
+    "file": "trainins.css"
+}

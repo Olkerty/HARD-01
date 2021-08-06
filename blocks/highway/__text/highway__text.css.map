@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACf,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,GAAG;CACX",
+    "sources": [
+        "highway__text.scss"
+    ],
+    "names": [],
+    "file": "highway__text.css"
+}

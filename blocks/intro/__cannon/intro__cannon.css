@@ -1,4 +1,16 @@
 .intro__cannon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
+@media all and (max-width: 900px) {
+  .intro__cannon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=intro__cannon.css.map */

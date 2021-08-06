@@ -1,0 +1,19 @@
+.highway__bycicles-slicker-item {
+  padding-top: 60px;
+  padding-right: 120px;
+  padding-bottom: 60px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=highway__bycicles-slicker-item.css.map */

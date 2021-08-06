@@ -1,3 +1,0 @@
-C:\Users\Vas-k\Documents\GitHub\HARD-01\obj\Debug\TestAgain.njsproj.AssemblyReference.cache
-C:\Users\Vas-k\Documents\GitHub\HARD-01\obj\Debug\TestAgain.njsproj.CoreCompileInputs.cache
-C:\Users\Vas-k\Documents\GitHub\HARD-01\bin\Microsoft.NodejsTools.WebRole.dll

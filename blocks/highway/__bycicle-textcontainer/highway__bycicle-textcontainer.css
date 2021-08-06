@@ -1,0 +1,14 @@
+.highway__bycicle-textcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  vertical-align: bottom;
+  width: 85.7vw;
+  max-height: 60px;
+  margin-bottom: 120px;
+}
+/*# sourceMappingURL=highway__bycicle-textcontainer.css.map */

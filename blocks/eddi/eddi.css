@@ -1,4 +1,18 @@
 .eddi {
-  background-color: #333;
+  border: 1px solid green;
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=eddi.css.map */

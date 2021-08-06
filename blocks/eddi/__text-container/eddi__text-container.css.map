@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,qBAAqB,CAAC;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,aAAa;EACxB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,QAAQ;CACzB",
+    "sources": [
+        "eddi__text-container.scss"
+    ],
+    "names": [],
+    "file": "eddi__text-container.css"
+}

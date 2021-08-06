@@ -1,0 +1,14 @@
+.highway__bycicles-names {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  border: 1px solid red;
+}
+/*# sourceMappingURL=highway__bycicles-names.css.map */

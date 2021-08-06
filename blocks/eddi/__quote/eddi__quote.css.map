@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,YAAY,CAAA;EACR,MAAM,EAAE,CAAC;EACT,OAAO,EAAC,CAAC;EACT,aAAa,EAAE,KAAK;EACpB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "eddi__quote.scss"
+    ],
+    "names": [],
+    "file": "eddi__quote.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,MAAM,EAAC,CAAC;EACR,OAAO,EAAE,CAAC;EACZ,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,IAAI;CAEf",
+    "sources": [
+        "eddi__name.scss"
+    ],
+    "names": [],
+    "file": "eddi__name.css"
+}

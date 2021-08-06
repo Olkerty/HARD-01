@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EAQrB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,IAAI;CACjB;;AAfL,AACI,wBADoB,CAClB,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;CAIf;;AAPL,AAIS,wBAJe,CAClB,CAAC,AAGG,MAAM,CAAC;EACJ,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "trainins__strava-kompot.scss"
+    ],
+    "names": [],
+    "file": "trainins__strava-kompot.css"
+}

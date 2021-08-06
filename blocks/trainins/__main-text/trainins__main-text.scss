@@ -1,0 +1,6 @@
+.trainins__main-text {
+    @include nullify();
+    margin-top: 50px;
+    margin-bottom: 182px;
+    @include greyTextTypogr();
+}

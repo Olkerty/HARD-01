@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,KAAK,EAAE,wBAAwB;EAC/B,MAAM,EAAE,wBAAwB;EAChC,MAAM,EAAE,aAAa;CACtB;;AAED,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC9B,AAAA,oBAAoB,CAAC;IACnB,UAAU,EAAE,IAAI;IAChB,aAAa,EAAE,IAAI;IACnB,SAAS,EAAE,gBAAgB;GAC5B",
+    "sources": [
+        "intro__nature-image.scss"
+    ],
+    "names": [],
+    "file": "intro__nature-image.css"
+}
