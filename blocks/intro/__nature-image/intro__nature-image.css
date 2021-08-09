@@ -1,5 +1,20 @@
 .intro__nature-image {
-  width: 610px;
-  height: 836px;
-  border: 1px solid red;
+  width: calc(31.78vw + 152.28px);
+  height: calc(43.57vw + 208.57px);
 }
+
+@media all and (max-width: 700px) {
+  .intro__nature-image {
+    display: none;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .intro__nature-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+}
+/*# sourceMappingURL=intro__nature-image.css.map */

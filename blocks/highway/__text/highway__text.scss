@@ -1,0 +1,16 @@
+.highway__text {
+    @include nullify();
+    margin-top: 50px;
+    margin-bottom: 80px;
+    max-width: 460px;
+    @include greyTextTypogr();
+}
+
+@media all and (max-width: 320px) {
+    .highway__text {
+        margin-top: 40px;
+        padding-bottom: 80px;
+        margin-bottom:0;
+        border-bottom: 1px solid #E3E3E3;
+    }
+}

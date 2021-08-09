@@ -1,0 +1,21 @@
+.bike__bike-image {
+  position: sticky;
+  width: calc(18.39vw + 175.14px);
+  height: calc(12.5vw + 120px);
+  top: 0;
+  border-radius: 20px;
+  background-color: #F4F4F4;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  background-image: url(../images/intro-bike.png);
+  background-size: 340px 260px;
+  background-repeat: no-repeat;
+  z-index: 8;
+  background-position: bottom 20px left 50px;
+}
+
+@media all and (max-width:900px) {
+  .bike__bike-image {
+    background-position: bottom 0px left 10px;
+    background-size: contain;
+  }
+}

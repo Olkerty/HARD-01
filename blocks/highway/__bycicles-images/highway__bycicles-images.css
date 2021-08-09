@@ -1,0 +1,12 @@
+.highway__bycicles-images {
+  margin: 0;
+  padding: 0;
+  width: 83.33vw;
+}
+
+@media all and (max-width: 700px) {
+  .highway__bycicles-images {
+    min-height: 270px;
+  }
+}
+/*# sourceMappingURL=highway__bycicles-images.css.map */

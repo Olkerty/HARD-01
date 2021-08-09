@@ -1,0 +1,14 @@
+.highway__bycicle-textcontainer {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+    width: 85.7vw;
+    margin-bottom: 120px;
+}
+
+@media all and (max-width:700px) {
+    .highway__bycicle-textcontainer {
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,20 @@
+.footer {
+  background: #EFEFEF;
+  padding: 80px 120px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media all and (max-width: 700px) {
+  .footer {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 60px;
+    padding-bottom: 16px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

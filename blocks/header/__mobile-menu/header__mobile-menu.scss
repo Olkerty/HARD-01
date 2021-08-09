@@ -1,0 +1,21 @@
+.header__mobile-menu {
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  height: 20px;
+  margin-top: 22.67px;
+  padding-left: 41px;
+  z-index: 2;
+}
+
+@media all and (max-width: 500px) {
+  .header__mobile-menu {
+    right: 30px;
+    top: 0;
+    display: flex;
+    position: fixed;
+  }
+}

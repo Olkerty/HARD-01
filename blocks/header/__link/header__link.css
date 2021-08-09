@@ -1,0 +1,26 @@
+.header__link {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-left: 34px;
+  max-height: 18px;
+}
+
+.header__link:hover {
+  opacity: 0.75;
+}
+
+.header__link:last-of-type {
+  margin-right: 120px;
+}
+
+@media all and (max-width: 500px) {
+  .header__link {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header__link.css.map */

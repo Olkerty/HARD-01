@@ -1,0 +1,11 @@
+
+.element__for-mobile {
+    display: none;    
+  }
+  
+@media all and (max-width: 700px) {   
+  .element__for-mobile {
+      display: block;
+    }
+}
+  

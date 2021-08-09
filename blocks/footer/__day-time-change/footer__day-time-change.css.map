@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,wBAAwB,CAAC;EACrB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,MAAM,EAAE,IAAI;EACZ,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "footer__day-time-change.scss"
+    ],
+    "names": [],
+    "file": "footer__day-time-change.css"
+}

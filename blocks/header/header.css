@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,5 +7,12 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   height: 74px;
+}
+
+@media all and (max-width: 700px) {
+  .header {
+    width: auto;
+    padding-right: 30px;
+  }
 }
 /*# sourceMappingURL=header.css.map */

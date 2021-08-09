@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,wBAAwB;EAC/B,MAAM,EAAE,wBAAwB;CACnC",
+    "sources": [
+        "highway__image.scss"
+    ],
+    "names": [],
+    "file": "highway__image.css"
+}

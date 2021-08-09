@@ -1,0 +1,19 @@
+.eddi__profession{
+  margin:0;
+  padding: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.7;
+  margin-top: 6px;
+}
+
+@media all and (max-width:320px) {
+    .eddi__profession {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}

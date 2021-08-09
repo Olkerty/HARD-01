@@ -1,0 +1,17 @@
+.highway__arrow-container {
+    margin-top: 50px;
+    width: 120px;
+    margin-bottom: 60px;
+    display: flex;
+    z-index: 3;
+    justify-content: space-between;
+}
+
+@media all and (max-width:700px) {
+    .highway__arrow-container{
+     position: absolute;
+     right: 18px;
+     top: 40px;   
+     width: 58px;
+    }
+}

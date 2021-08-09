@@ -1,5 +1,4 @@
 .header__link {
-  border: 1px solid red;
   color: black;
   text-decoration: none;
   font-size: 14px;
@@ -9,12 +8,16 @@
   letter-spacing: 0px;
   margin-left: 34px;
   max-height: 18px;
-}
-
-.header__link:hover {
+  &:hover {
     opacity: 0.75;
+  }
+  &:last-of-type {
+    margin-right: 120px;
+  }
 }
 
-.header__link:last-of-type {
-    margin-right: 120px;
+@media all and (max-width:500px) {
+  .header__link {
+    display: none;
+  }
 }

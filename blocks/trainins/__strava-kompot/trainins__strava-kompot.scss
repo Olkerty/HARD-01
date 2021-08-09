@@ -1,0 +1,22 @@
+.trainins__strava-kompot {
+    & a {
+        text-decoration: none;
+        color: black;
+         &:hover {
+             opacity: 0.75;
+         }
+    }
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    word-spacing: 30px;
+}
+
+    @media all and (max-width:700px) {
+        .trainins__strava-kompot{
+            margin: 0;
+        }
+    }

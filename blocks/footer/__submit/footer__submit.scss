@@ -1,0 +1,12 @@
+.footer__submit {
+    border: none;
+    margin-left: -40px;
+    z-index: 2;
+    background-color: transparent;
+    margin-top: 2px;
+    height:46px;
+    width: 27px;
+    &:hover {
+        cursor: pointer;
+    }
+}
