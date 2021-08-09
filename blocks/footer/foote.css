@@ -1,0 +1,12 @@
+.footer {
+  background: #EFEFEF;
+  padding: 80px 120px 60px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=foote.css.map */

@@ -11,7 +11,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid green;
 }
 
 @media all and (max-width: 700px) {

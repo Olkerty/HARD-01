@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,YAAY,EAAC,IAAI;CACpB",
+    "sources": [
+        "footer__sun.scss"
+    ],
+    "names": [],
+    "file": "footer__sun.css"
+}

@@ -5,9 +5,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 3;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid blue;
+}
+
+@media all and (max-width: 700px) {
+  .highway__arrow-container {
+    position: absolute;
+    right: 18px;
+    top: 40px;
+    width: 58px;
+  }
 }
 /*# sourceMappingURL=highway__arrow-container.css.map */

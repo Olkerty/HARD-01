@@ -1,8 +1,11 @@
 .highway__bycicles-images {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    border: 1px solid red;
+    width: 83.33vw;
+}
+
+@media all and (max-width:700px) {
+    .highway__bycicles-images {
+        min-height: 270px;
+    }
 }

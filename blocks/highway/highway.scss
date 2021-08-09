@@ -1,8 +1,19 @@
 .highway{ 
     display: flex;
     flex-direction: column;
-    padding-left: 120px;
+    position: relative;
+    padding-left: calc(10.71vw - 16.28px);
     padding-top: 60px;
     padding-bottom: 60px;
     box-sizing: border-box;
+}
+
+@media all and (max-width:320px) {
+    .highway {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        border-bottom: 1px solid #E3E3E3;
+    }
 }

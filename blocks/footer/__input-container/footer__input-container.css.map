@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;CAChB;;AAED,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC5B,AAAA,wBAAwB,CAAC;IACrB,KAAK,EAAC,KAAK;GACd",
+    "sources": [
+        "footer__input-container.scss"
+    ],
+    "names": [],
+    "file": "footer__input-container.css"
+}

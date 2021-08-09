@@ -1,0 +1,12 @@
+.highway__name-of-bycicle_dark-theme {
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+@media all and (max-width: 700px) {
+  .highway__name-of-bycicle_dark-theme {
+    color: #151515;
+    background-color: #F4F4F4;
+  }
+}
+/*# sourceMappingURL=highway__name-of-bycicle_dark-theme.css.map */

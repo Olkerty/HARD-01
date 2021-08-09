@@ -1,5 +1,5 @@
 .highway__image {
-  width: 650px;
-  height: 400px;
+  width: calc(32.67vw + 179.42px);
+  height: calc(22.85vw + 130.85px);
 }
 /*# sourceMappingURL=highway__image.css.map */

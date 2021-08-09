@@ -1,0 +1,27 @@
+.highway__dropdown {
+  background-image: url("../images/arrow-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px top 12px;
+  position: relative;
+  display: none;
+  height: 30px;
+  width: 114px;
+  margin-top: 40px;
+  padding-top: 6px;
+  border: 1px solid #E3E3E3;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.highway__dropdown:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media all and (max-width: 500px) {
+  .highway__dropdown {
+    display: inline-block;
+  }
+}
+/*# sourceMappingURL=highway__dropdown.css.map */

@@ -16,4 +16,10 @@
 .trainins__strava-kompot a:hover {
   opacity: 0.75;
 }
+
+@media all and (max-width: 700px) {
+  .trainins__strava-kompot {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=trainins__strava-kompot.css.map */

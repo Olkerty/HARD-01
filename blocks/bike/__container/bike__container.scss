@@ -1,0 +1,13 @@
+
+.bike__container {
+    position: absolute;
+    height:430px;
+    top: calc(7.23vw + 287.85px);
+    left: calc(54.64vw - 156.85px);
+}
+
+@media all and (max-width:700px) {
+    .bike__container {
+        height: 300px;
+    }
+}

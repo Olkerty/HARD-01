@@ -1,11 +1,23 @@
 .highway__bycicle-image {
-   margin: 0;
-   padding:0;
-   background-color: #F4F4F4;
-   box-shadow: 0px 20px 140px 0px rgba(0, 0, 0, 0.06);
+  margin: 0;
+  padding: 20px;
+  background-color: #F4F4F4;
+  background-repeat: no-repeat;
+  background-size: contain;
+ // box-shadow: 0px 20px 140px 0px rgba(0, 0, 0, 0.06);
   width: 380px;
-    height: 380px;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
+  height: 380px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+@media all and (max-width:700px) {
+  .highway__bycicle-image {
+    margin: 0;
+    //box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+    padding: 15px;
+    padding-bottom: 37px;
+    width: 254px;
+    height: 254px;
+  }
 }

@@ -1,6 +1,5 @@
 .eddi__text-container {
   width: 470px;
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,5 +10,14 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+@media all and (max-width: 900px) {
+  .eddi__text-container {
+    max-width: 88.75vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 /*# sourceMappingURL=eddi__text-container.css.map */

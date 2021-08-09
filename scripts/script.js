@@ -6,7 +6,6 @@ const footerDayNightRegime = document.querySelector('.footer__checkbox-input');
 const body = document.querySelector('.body');
 const footer = document.querySelector('.footer');
 const introText = document.querySelector('.intro__description');
-const highwayMainText = document.querySelector('.highway__text');
 const traininsText = document.querySelector('.trainins__main-text');
 const footerCopyRight = document.querySelector('.footer__copyright');
 const headerLinksMassive = document.querySelectorAll('.header__link');
@@ -18,7 +17,35 @@ const sunImage = document.querySelector('.footer__sun');
 const moonImage = document.querySelector('.footer__moon');
 const highwayImageSlickers = document.querySelectorAll('.highway__bycicles-images');
 const highwayDotsContainers = document.querySelectorAll('.highway__dots-container');
+const highwaySlickerItems = document.querySelectorAll('.highway__slicker-item');
 const highwaySmallSlickersDotsContainers = document.querySelectorAll('.highway__bycicles-slicker-item');
+const highwayCardsText = document.querySelectorAll('.highway__text');
+const highwayCardsTitles = document.querySelectorAll('.highway__title');
+const highwayImagesContainers = document.querySelectorAll('.highway__image-container');
+const highwayImagesOfBycicles = document.querySelectorAll('.highway__bycicle-image');
+const headerMbolieMenuButton = document.querySelector('.header__mobile-menu-btn');
+const headerMobileMenuList = document.querySelector('.header__mobile-menu-list');
+const headerMobileMenuLinks = document.querySelectorAll('.header__mobile-menu-link');
+const headerMobileMenuIcons = Array.from(headerMbolieMenuButton.getElementsByTagName('*'));
+const highwayImageMassive = document.querySelectorAll('.highway__image');
+
+let currentColor = '#333333';
+
+
+const bycicles = ["url(./images/CerveloCaledonia.png)",
+'url(./images/CannondaleSystemixHimod.png)',
+"url(./images/TrekDomaleSL7.png)",
+"url(./images/CerveloAspero.png)",
+"url(./images/SpecializedSworksDiverge.png)",
+"url(./images/CannondaleTopstoneLetty.png)",
+"url(./images/SpecializedSwoksShiv.png)",
+"url(./images/BMCTimemachine.png)",
+"url(./images/CerveloPSeies.png)"
+]
+
+bycicles.forEach(function(item,index) {
+  highwayImagesOfBycicles[index].style.backgroundImage = item;
+});
 
 const imagesOfRoads = [
     {
@@ -67,13 +94,13 @@ $('.highway__bycicles-slicker').slick({
     arrows: false,
     dots: true,
     draggable: false,
+    touchMove: false,
+    touchThreshold: 0.01,
     dotsClass: 'highway__bycicles-names',
     appendDots: '.highway__bycicles-names',
 });
 
 highwayImageSlickers.forEach(function(item,index) {
-    console.log(item);
-    console.log(index);
  $(item).slick({
     dots: false,
     dotsClass: 'slick-dots__modified',
@@ -83,6 +110,17 @@ highwayImageSlickers.forEach(function(item,index) {
   slidesToScroll: 3,
   responsive: [
     {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          infinite: true,
+          arrows: false,
+          slidesToScroll: 1,
+          dots: true,
+          appendDots: highwaySmallSlickersDotsContainers[index],
+        }
+      },
+    {
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
@@ -90,17 +128,14 @@ highwayImageSlickers.forEach(function(item,index) {
         arrows: false,
         slidesToScroll: 1,
         dots: true,
-        appendDots: highwaySmallSlickersDotsContainers[index],
       }
     },
   ]
  });
-
 });
 const highwayText = document.getElementById('slick-slide-control10');
 const grevel = document.getElementById('slick-slide-control11');
 const tt = document.getElementById('slick-slide-control12');
-console.log(document.getElementById('slick-slide-control10'));
 highwayText.addEventListener('click', function() {
   highwayText.classList.add('highway__bycicle-name_active');
   grevel.classList.remove('highway__bycicle-name_active');
@@ -136,6 +171,8 @@ $(document).on('click', function(e) {
 const highWayBycicleNamesMassive = document.querySelectorAll('.highway__bycicle-name');
 footerDayNightRegime.addEventListener('click', function() {
 if(this.checked) {
+    currentColor='#FFFFFF';
+    console.log(currentColor);
 highWayBycicleNamesMassive.forEach(function(item) {
 item.style.color='#FFFFFF';
 });
@@ -143,15 +180,25 @@ headerLinksMassive.forEach(function(item) {
    item.style.color='#FFFFFF';
 });
 highwayNamesOfByciclesInCards.forEach(function(item) {
-    item.style.color='#FFFFFF';
+    item.classList.add('highway__name-of-bycicle_dark-theme');
  });
 body.style.color='#FFFFFF';
 body.style.backgroundColor='#333333';
 footer.style.backgroundColor='#2F2F2F';
 introText.style.color='#E6E6E6';
-highwayMainText.style.color='#E5E5E5';
+highwayCardsText.forEach(function(item) {
+ item.style.color='#E5E5E5';
+});
 traininsText.style.color='#E5E5E5';
 footerCopyRight.style.color = '#565656';
+headerMobileMenuList.style.backgroundColor = '#333333';
+headerMobileMenuIcons.forEach(function(item) {
+    item.style.backgroundColor='#FFFFFF';
+});
+headerMobileMenuIcons[1].style.background = 'transparent';
+headerMobileMenuLinks.forEach(function(item) {
+ item.style.color='#FFFFFF';
+});
 rollRightButton.style.backgroundColor = '#434343'; 
 rollLefttButton.style.backgroundColor = '#434343';
 rollRightButton.style.backgroundImage = `url('./images/right-arrow_white.svg')`; 
@@ -160,7 +207,13 @@ sunImage.src='./images/sun_dark.svg';
 moonImage.src='./images/moon_dark.svg';
 traininsLinkMassive[0].style.color ='#FFFFFF';
 traininsLinkMassive[1].style.color ='#FFFFFF';
+document.querySelectorAll('.highway__dropdown-item').forEach(function (item) {
+    item.style.backgroundColor='#333333';
+    console.log(123);
+});
 } else {
+    currentColor='#333333';
+    console.log(currentColor);
     highWayBycicleNamesMassive.forEach(function(item) {
         item.style.color='';
     });
@@ -168,19 +221,31 @@ traininsLinkMassive[1].style.color ='#FFFFFF';
            item.style.color='';
     });
     highwayNamesOfByciclesInCards.forEach(function(item) {
-            item.style.color='';
+            item.classList.remove('highway__name-of-bycicle_dark-theme');
     });        
     body.style.color='';
     body.style.backgroundColor='';
     footer.style.backgroundColor='';
     introText.style.color='';
-    highwayMainText.style.color='';
+    highwayCardsText.forEach(function(item) {
+        item.style.color='';
+    });
     traininsText.style.color='';
     footerCopyRight.style.color = '';
+    headerMobileMenuList.style.backgroundColor = '';
+    headerMobileMenuIcons.forEach(function(item) {
+        item.style.backgroundColor='';
+    });
+    headerMobileMenuLinks.forEach(function(item) {
+        item.style.color='';
+    });
     rollRightButton.style.backgroundColor = ''; 
     rollLefttButton.style.backgroundColor = '';
     rollRightButton.style.backgroundImage = ``; 
     rollLefttButton.style.backgroundImage = ``;
+    document.querySelectorAll('.highway__dropdown-item').forEach(function (item) {
+        item.style.backgroundColor='';
+    });
     traininsLinkMassive[0].style.color ='';
     traininsLinkMassive[1].style.color ='';
     sunImage.src='./images/sun.svg';
@@ -188,10 +253,73 @@ traininsLinkMassive[1].style.color ='#FFFFFF';
 }
 });
 
-
-$(window).resize(function () { 
-  if(window.innerWidth=700) {
-    document.querySelector('.intro__text-container').prepend(document.querySelector('.intro__nature-image')); 
-    document.querySelector('.intro__text-container').prepend(document.querySelector('.section-title')); 
-}
+headerMbolieMenuButton.addEventListener('click',function () {
+  document.querySelector('.bike__bike-image').classList.toggle('bike__hide');
+  if (headerMobileMenuIcons[1].style.background=='transparent') {
+  headerMobileMenuIcons[1].style.background=currentColor;
+  } else if (currentColor=='#FFFFFF') {
+    headerMobileMenuIcons[1].style.background='transparent';
+  }
 });
+
+const highwayDropDownContainer = document.querySelectorAll('.highway__bycicles-names')[1];
+const listElements = Array.from(highwayDropDownContainer.getElementsByTagName('*'));
+const aboutHeaderDropDown = document.querySelector(".highway__dropdown");
+aboutHeaderDropDown.addEventListener('click', function () {
+    document.querySelector(".highway__dropdown-content").classList.toggle("highway__dropdown_show");
+});
+if(window.innerWidth<=500) {
+    document.querySelector('.highway').prepend(document.querySelector('.highway__arrow-container')); 
+    document.querySelector('.header__mobile-menu-list').append(document.querySelector('.footer__day-time-change')); 
+    highwayImagesContainers.forEach(function(item,index) {  
+        let temporaryElement = highwayCardsText[index];
+      item.insertAdjacentElement('afterend',temporaryElement);
+    });
+    highwayDropDownContainer.classList.add('highway__dropdown-content');
+    listElements.forEach(function(item) {
+      item.classList.add('highway__dropdown-item');
+    });
+}
+if(window.innerWidth<1000) {
+    highwayImageMassive[1].style.display='none';
+    highwayImageMassive[3].style.display='none';
+    highwayImageMassive[5].style.display='none';
+}
+$(window).resize(function () { 
+    if(window.innerWidth<1000) {
+        highwayImageMassive[1].style.display='none';
+        highwayImageMassive[3].style.display='none';
+        highwayImageMassive[5].style.display='none';
+    } else {
+        highwayImageMassive[1].style.display='';
+        highwayImageMassive[3].style.display='';
+        highwayImageMassive[5].style.display='';
+    }
+  if(window.innerWidth<500) {
+      if (currentColor=='#FFFFFF') {document.querySelector('.header__mobile-menu-icon').style.backgroundColor='#FFFFFF';}
+    highwayDropDownContainer.classList.add('highway__dropdown-content');
+    listElements.forEach(function(item) {
+      item.classList.add('highway__dropdown-item');
+    });
+    document.querySelector('.highway').prepend(document.querySelector('.highway__arrow-container')); 
+    document.querySelector('.header__mobile-menu-list').append(document.querySelector('.footer__day-time-change')); 
+    highwayImagesContainers.forEach(function(item,index) {  
+        let temporaryElement = highwayCardsText[index];
+      item.insertAdjacentElement('afterend',temporaryElement);
+    });
+} else {
+    highwayCardsTitles.forEach(function(item,index) {
+        item.insertAdjacentElement('afterend',highwayCardsText[index])
+    });
+    document.querySelector('.highway__slicker').insertAdjacentElement('afterend',document.querySelector('.highway__arrow-container'));
+    document.querySelector('.footer').append(document.querySelector('.footer__day-time-change')); 
+    highwayDropDownContainer.classList.remove('highway__dropdown-content');
+    listElements.forEach(function(item) {
+      item.classList.remove('highway__dropdown-item');
+    });
+} 
+});
+
+
+
+

@@ -1,5 +1,7 @@
 .highway__slicker-item {
   margin: 0;
   padding: 0;
+  height: 600px;
+  border: 1px solid blue;
 }
 /*# sourceMappingURL=highway__slicker-item.css.map */

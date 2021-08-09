@@ -4,3 +4,10 @@
     margin-bottom: 182px;
     @include greyTextTypogr();
 }
+
+@media all and (max-width:700px) {
+    .trainins__main-text {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+}
