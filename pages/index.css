@@ -772,7 +772,6 @@ template {
 
 @media all and (max-width: 700px) {
   .header {
-    position: fixed;
     width: auto;
     padding-right: 30px;
   }
@@ -945,9 +944,6 @@ template {
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding: 0;
-  top: 0;
-  left: 0;
-  right: 0;
   height: 20px;
   margin-top: 22.67px;
   padding-left: 41px;
@@ -956,9 +952,12 @@ template {
 
 @media all and (max-width: 500px) {
   .header__mobile-menu {
+    right: 30px;
+    top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: fixed;
   }
 }
 
