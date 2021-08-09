@@ -770,6 +770,13 @@ template {
   height: 74px;
 }
 
+@media all and (max-width: 700px) {
+  .header {
+    width: auto;
+    padding-right: 30px;
+  }
+}
+
 .header__mobile-menu-btn {
   position: relative;
   display: -webkit-box;
