@@ -1,14 +1,14 @@
 
 .eddi__text-container { 
-    width: 470px;
- display: flex;
- flex-direction: column;
- justify-content: flex-end;
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-@media all and (max-width:900px) {
-    .eddi__text-container {
-        max-width: 88.75vw;
-        justify-content: flex-start;
-    }
+@media all and (max-width:1000px) {
+  .eddi__text-container {
+    max-width: 88.75vw;
+    justify-content: flex-start;
+  }
 }

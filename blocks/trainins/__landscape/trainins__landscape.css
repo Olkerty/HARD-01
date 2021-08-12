@@ -3,7 +3,7 @@
   height: calc(20.98vw + 157.85px);
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 1000px) {
   .trainins__landscape {
     display: none;
     margin-top: 40px;

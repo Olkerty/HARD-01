@@ -1,4 +1,6 @@
 .body {
+  position: relative;
+  z-index: 1;
   background-color: $backgroundWhite;
   color: $textBlackColor;
   font-family: Inter, Arial, Helvetica, sans-serif;

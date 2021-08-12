@@ -1,25 +1,25 @@
 .highway__name-of-bycicle {
-    @include nullify();
-    padding-top: 22px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0px;
-    color: #151515;
-    max-width: 340px;
+  @include nullify();
+  padding-top: 22px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #151515;
+  max-width: 340px;
 }
 
-@media all and  (max-width:700px) {
-    .highway__name-of-bycicle {
-       font-size: 14px;
-       margin-left: auto;
-       margin-right: auto;
-       transform: translateY(-34px);
-       padding-top: 0;
-       margin-top: 0px;
-       max-width: 224px;
-       line-height: 18px;
-       text-align: center;
-    }
+@media all and  (max-width:1200px) {
+  .highway__name-of-bycicle {
+   font-size: 14px;
+   margin-left: auto;
+   margin-right: auto;
+   transform: translateY(-34px);
+   padding-top: 0;
+   margin-top: 0px;
+   max-width: 224px;
+   line-height: 18px;
+   text-align: center;
+  }
 }

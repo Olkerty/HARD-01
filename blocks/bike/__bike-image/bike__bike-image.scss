@@ -10,12 +10,20 @@
   background-size: 340px 260px;
   background-repeat: no-repeat;
   z-index: 8;
-  background-position: bottom 20px left 50px;
+  background-position: bottom calc(3.7vw - 33.33px) left calc(7.4vw - 56.66px);
 }
 
-@media all and (max-width:900px) {
+@media all and (max-width:1000px) {
   .bike__bike-image {
     background-position: bottom 0px left 10px;
     background-size: contain;
+    transform: translateX(100px);
+  }
+}
+
+
+@media all and (max-width:700px) {
+  .bike__bike-image {
+    transform: translateX(0);
   }
 }

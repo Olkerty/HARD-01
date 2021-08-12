@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,IAAI;CACd;;AAEH,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC9B,AAAA,oBAAoB,CAAC;IACjB,OAAO,EAAE,KAAK;GACf",
-    "sources": [
-        "element__for-mobile.scss"
-    ],
-    "names": [],
-    "file": "element__for-mobile.css"
-}
