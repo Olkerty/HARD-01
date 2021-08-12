@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,eAAe;EACxB,MAAM,EAAE,aAAa;EACrB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CACjC",
-    "sources": [
-        "foote.scss"
-    ],
-    "names": [],
-    "file": "foote.css"
-}

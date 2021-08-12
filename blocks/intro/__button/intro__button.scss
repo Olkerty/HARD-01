@@ -16,13 +16,13 @@
   background-position-x: 100%;
   transition: background .2s ease-out;
   margin-bottom: 167px;
-   &:hover {
+  &:hover {
     background-position-x: 0;
     cursor: pointer;
-   }
+  }
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:1000px) {
   .intro__button{
     width: 284px;
     height: 46px;

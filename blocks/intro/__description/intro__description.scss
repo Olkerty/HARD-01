@@ -6,7 +6,7 @@
   @include greyTextTypogr();
 }
 
-@media all and (max-width:700px) {
+@media all and (max-width:1000px) {
   .intro__description {
     margin: 0;
   }

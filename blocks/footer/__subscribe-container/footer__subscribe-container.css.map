@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,4BAA4B,CAAC;EAC3B,KAAK,EAAC,IAAI;CACX",
+    "sources": [
+        "footer__subscribe-container.scss"
+    ],
+    "names": [],
+    "file": "footer__subscribe-container.css"
+}

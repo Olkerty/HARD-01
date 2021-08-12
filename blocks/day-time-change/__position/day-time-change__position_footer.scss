@@ -1,0 +1,13 @@
+.day-time-change__position_footer {
+  margin-top: 242px;
+}
+
+
+@media all and (max-width: 700px) {
+  .day-time-change__position_footer {
+    margin-top: 0;
+    display: none;
+    position: fixed;
+    bottom: 28px;
+  }
+}

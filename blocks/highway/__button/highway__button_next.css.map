@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EACpB,gBAAgB,EAAE,gCAAgC;CACnD",
+    "sources": [
+        "highway__button_next.scss"
+    ],
+    "names": [],
+    "file": "highway__button_next.css"
+}

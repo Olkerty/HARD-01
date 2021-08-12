@@ -11,8 +11,17 @@
           justify-content: space-between;
 }
 
+@media all and (max-width: 1100px) {
+  .highway__arrow-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media all and (max-width: 700px) {
   .highway__arrow-container {
+    margin-left: 0;
+    margin-right: 0;
     position: absolute;
     right: 18px;
     top: 40px;

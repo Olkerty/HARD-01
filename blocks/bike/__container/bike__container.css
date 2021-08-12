@@ -5,7 +5,7 @@
   left: calc(54.64vw - 156.85px);
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 900px) {
   .bike__container {
     height: 300px;
   }

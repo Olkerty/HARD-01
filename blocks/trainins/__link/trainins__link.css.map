@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC5B,AAAA,eAAe,CAAC;IACZ,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,IAAI;GACpB",
+    "mappings": "AAAA,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC9B,AAAA,eAAe,CAAC;IACd,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,IAAI;GAClB",
     "sources": [
         "trainins__link.scss"
     ],

@@ -1,11 +1,11 @@
 .footer__title {
-    @include nullify();
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
-margin-bottom: 50px;
-max-width:229px;
+  @include nullify();
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 50px;
+  max-width:229px;
 }

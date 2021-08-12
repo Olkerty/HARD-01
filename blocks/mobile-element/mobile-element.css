@@ -1,0 +1,10 @@
+.mobile-element {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .mobile-element {
+    display: block;
+  }
+}
+/*# sourceMappingURL=mobile-element.css.map */

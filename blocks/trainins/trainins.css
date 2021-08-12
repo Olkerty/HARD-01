@@ -11,12 +11,31 @@
           justify-content: space-between;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
   .trainins {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 40px;
     padding-bottom: 60px;
     padding-left: 18px;
     padding-right: 18px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .trainins {
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 /*# sourceMappingURL=trainins.css.map */

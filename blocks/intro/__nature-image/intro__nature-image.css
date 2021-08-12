@@ -3,14 +3,9 @@
   height: calc(43.57vw + 208.57px);
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 1000px) {
   .intro__nature-image {
     display: none;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .intro__nature-image {
     margin-top: 40px;
     margin-bottom: 40px;
     -webkit-transform: translateX(15px);
