@@ -1,0 +1,11 @@
+.footer__copyright {
+  @include nullify();
+  margin-top: 100px;
+  color: #CFCFCF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}

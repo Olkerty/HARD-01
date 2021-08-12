@@ -1,0 +1,25 @@
+.highway__title {
+    @include titleText();
+    max-width: 460px;
+}
+
+
+@media all and (max-width: 1100px) {
+  .highway__title {
+    max-width: unset;
+    width: calc(32.67vw + 179.42px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .highway__title {
+    max-width: 460px;
+    width: unset;
+    margin: 0;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid #E3E3E3;
+  }
+}

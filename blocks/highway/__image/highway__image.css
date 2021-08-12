@@ -1,0 +1,19 @@
+.highway__image {
+  width: calc(32.67vw + 179.42px);
+  height: calc(22.85vw + 130.85px);
+}
+
+@media all and (max-width: 1100px) {
+  .highway__image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .highway__image {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=highway__image.css.map */

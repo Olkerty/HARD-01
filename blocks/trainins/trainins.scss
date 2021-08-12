@@ -1,0 +1,26 @@
+.trainins {
+  padding-top: 150px;
+  padding-bottom: 120px;
+  padding-left: 120px;
+  padding-right: 120px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (max-width:1000px) {
+  .trainins {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }    
+}
+
+@media all and (max-width:500px) {
+  .trainins {
+    align-items: unset;
+    flex-direction: row;
+  }
+}

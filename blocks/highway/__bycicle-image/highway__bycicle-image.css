@@ -1,0 +1,31 @@
+.highway__bycicle-image {
+  margin: 0;
+  padding: 20px;
+  background-color: #F4F4F4;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  width: calc(17.027vw + 134.81px);
+  height: calc(17.027vw + 134.81px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 1200px) {
+  .highway__bycicle-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .highway__bycicle-image {
+    padding: 15px;
+    padding-bottom: 37px;
+    width: 254px;
+    height: 254px;
+  }
+}
+/*# sourceMappingURL=highway__bycicle-image.css.map */

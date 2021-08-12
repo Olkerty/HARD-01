@@ -1,0 +1,13 @@
+.trainins__landscape {
+  width: calc(26.428vw + 199.428px);
+  height: calc(20.98vw + 157.85px);
+}
+
+@media all and (max-width: 1000px) {
+  .trainins__landscape {
+    display: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=trainins__landscape.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,KAAK;CAClB",
+    "sources": [
+        "day-time-change.scss"
+    ],
+    "names": [],
+    "file": "day-time-change.css"
+}

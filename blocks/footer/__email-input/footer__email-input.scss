@@ -1,0 +1,14 @@
+.footer__email-input {
+  @include nullify();
+  padding-left: 20px;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  box-sizing: border-box;
+  height: 50px;
+  width: 333px;
+}
+
+@media all and (max-width:700px) {
+  .footer__email-input {
+    width: 257px;
+  }
+}

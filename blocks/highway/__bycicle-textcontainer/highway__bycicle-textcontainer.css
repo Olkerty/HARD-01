@@ -1,0 +1,22 @@
+.highway__bycicle-textcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  vertical-align: bottom;
+  width: 85.7vw;
+  margin-bottom: 120px;
+}
+
+@media all and (max-width: 700px) {
+  .highway__bycicle-textcontainer {
+    margin-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=highway__bycicle-textcontainer.css.map */

@@ -1,0 +1,31 @@
+.highway__arrow-container {
+  margin-top: 50px;
+  width: 120px;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 3;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media all and (max-width: 1100px) {
+  .highway__arrow-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .highway__arrow-container {
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    right: 18px;
+    top: 40px;
+    width: 58px;
+  }
+}
+/*# sourceMappingURL=highway__arrow-container.css.map */

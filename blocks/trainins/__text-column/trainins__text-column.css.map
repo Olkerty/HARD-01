@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACrB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,UAAU;CAC5B",
+    "sources": [
+        "trainins__text-column.scss"
+    ],
+    "names": [],
+    "file": "trainins__text-column.css"
+}

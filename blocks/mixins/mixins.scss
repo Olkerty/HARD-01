@@ -1,0 +1,26 @@
+@mixin nullify() {
+  border: 0;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin titleText() {
+  @include nullify();
+  font-size: calc(2.05vw + 25.42px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(1.785vw + 34.28px);
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+@mixin greyTextTypogr() {
+  font-size: calc(0.535vw + 10.285px);
+  opacity: 0.7;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(0.89vw + 15.142px);
+  letter-spacing: 0px;
+  color: $textGreyColor;
+}

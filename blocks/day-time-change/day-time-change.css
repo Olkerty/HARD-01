@@ -1,0 +1,14 @@
+.day-time-change {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 28px;
+  width: 144px;
+  vertical-align: middle;
+  margin-top: 242px;
+}
+/*# sourceMappingURL=day-time-change.css.map */

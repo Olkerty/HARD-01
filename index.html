@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css" />
+  <title>Велосипеды</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <nav class="header__mobile-menu">
+      <input type="checkbox" id="checkbox" class="header__mobile-menu-checkbox">
+      <label for="checkbox" class="header__mobile-menu-btn">
+        <img src="./images" class="header__mobile-menu-icon-before" alt="">
+        <img src="./images" class="header__mobile-menu-icon" alt="">
+        <img src="./images" class="header__mobile-menu-icon-after" alt="">
+      </label>
+      <div class="header__mobile-menu-container">
+        <ul class="header__mobile-menu-list">
+          <li class="header__mobile-menu-item"><a href="#covers-and-gradients" class="header__mobile-menu-link">Покрытия
+              и
+              градиенты</a></li>
+          <li class="header__mobile-menu-item"><a href="#bycicles" class="header__mobile-menu-link">Велосипеды</a></li>
+          <li class="header__mobile-menu-item"><a href="#covers" class="header__mobile-menu-link">Тренировки</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="header__menu-navigation">
+      <ul class="header__menu-navigation-list">
+        <li class="header__menu-navigation-item">
+          <a href="#covers-and-gradients" class="header__link">
+            Покрытия и градиенты
+          </a>
+        </li>
+        <li class="header__menu-navigation-item">
+          <a href="#bycicles" class="header__link">
+            Велосипеды
+          </a>
+        </li>
+        <li class="header__menu-navigation-item">
+          <a href="#covers" class="header__link">
+            Тренировки
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="bike__container">
+    <div class="bike__bike-image"> </div>
+  </section>
+  <section class="intro">
+    <div class="intro__text-container">
+      <h1 class="section-title">
+        Шоссе, ТТ и Грэвел
+      </h1>
+      <img src="./images/about-nature-image.png" class="intro__nature-image mobile-element" alt="Природа">
+      <p class="intro__description">
+        Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с
+        выбором велосипеда и отправиться в путь.
+      </p>
+      <button class="intro__button">
+        Подробнее
+      </button>
+      <div class="intro__cannon">
+        <p class="intro__cannon-text">
+          Cannondale Systemsix
+        </p>
+        <img src="./images/intro-line.svg" class="intro__cannon-line" alt="Серая линия">
+      </div>
+    </div>
+    <img src="./images/about-nature-image.png" class="intro__nature-image" alt="Природа">
+  </section>
+  <section class="eddi">
+    <img class="eddi__image" src="./images/eddi-image.png" alt="Природа, опять...">
+    <div class="eddi__text-container">
+      <blockquote class="eddi__quote">
+        «Катайся много или мало, долго или коротко, как хочешь - но катайся»
+      </blockquote>
+      <p class="eddi__name">
+        Эдди Меркс
+      </p>
+      <p class="eddi__profession">
+        Велогонщик
+      </p>
+    </div>
+  </section>
+  <section class="highway" id="covers-and-gradients">
+    <div class="highway__slicker">
+      <div class="higway__slicker-item">
+        <h2 class="highway__title">Шоссе</h2>
+        <p class="highway__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
+          равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <div class="highway__image-container">
+          <img src="./images/road1.png" class="highway__image" alt="Дорога в горах">
+          <img src="./images/road2.png" class="highway__image" alt="Дорога в лесу">
+        </div>
+      </div>
+      <div class="higway__slicker-item">
+        <h2 class="highway__title">Грэвел</h2>
+        <p class="highway__text">Грэвел похож на шоссейный велосипед, но конструкция рамы немного отличается, и на нём
+          стоят более широкие покрышки, всё для того чтобы проехать по лёгкому бездорожью.
+        </p>
+        <div class="highway__image-container">
+          <img src="./images/road3.png" class="highway__image" alt="Дорога в лесу">
+          <img src="./images/road4.png" class="highway__image" alt="Дорога в поле">
+        </div>
+      </div>
+      <div class="highway__slicker-item">
+        <h2 class="highway__title">ТТ</h2>
+        <p class="highway__text">ТТ — это велосипед для триатлона или раздельного старта, гооняют на таком велике только
+          по равнинному асфальту, велик очень быстрые и аэродинамичный.
+        </p>
+        <div class="highway__image-container">
+          <img src="./images/road5.png" class="highway__image" alt="Дорога в поле">
+          <img src="./images/road6.png" class="highway__image" alt="Дорога в горах">
+        </div>
+      </div>
+    </div>
+    <div class="highway__arrow-container">
+      <button type="button" class="highway__button highway__button_previous"></button>
+      <button type="button" class="highway__button highway__button_next"></button>
+    </div>
+    <div class="highway__bycicle-textcontainer">
+      <h2 class="section-title">Велосипеды</h2>
+      <div class="highway__bycicles-names">
+        <button type="button" class="highway__dropdown">Шоссе</button>
+      </div>
+    </div>
+    <div class="highway__bycicles-slicker" id="bycicles">
+      <ul class="highway__bycicles-images">
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image">
+          </div>
+          <p class="highway__name-of-bycicle ">Cervelo Caledonia-5</p>
+        </li>
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image">
+          </div>
+          <p class="highway__name-of-bycicle">Cannondale Systemsix Himod</p>
+        </li>
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image">
+          </div>
+          <p class="highway__name-of-bycicle">Trek Domane SL-7</p>
+        </li>
+      </ul>
+      <ul class="highway__bycicles-images">
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image"></div>
+          <p class="highway__name-of-bycicle">Cervelo Aspero GRX 810</p>
+        </li>
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image"></div>
+          <p class="highway__name-of-bycicle">Specialized S-Works Diverge</p>
+        </li>
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image"></div>
+          <p class="highway__name-of-bycicle">Cannondale Topstone Lefty 3</p>
+        </li>
+      </ul>
+      <ul class="highway__bycicles-images">
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image"></div>
+          <p class="highway__name-of-bycicle">Specialized S-Works Shiv</p>
+        </li>
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image"></div>
+          <p class="highway__name-of-bycicle">BMC Timemachine 01 ONE</p>
+        </li>
+        <li class="highway__bycicle-container">
+          <div class="highway__bycicle-image"></div>
+          <p class="highway__name-of-bycicle">Cervelo P-Series</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="trainins" id="trainins">
+    <div class="trainins__text-column">
+      <h2 class="section-title">
+        Тренировки
+      </h2>
+      <img src="./images/trainins-image.png" class="trainins__landscape mobile-element" alt="Дорога в гору">
+      <p class="trainins__main-text">
+        Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет
+        приложение Strava, а также это приложение позволит построить тренировочный план.
+      </p>
+      <p class="trainins__strava-kompot">
+        <a href=" https://www.strava.com" class="trainins__link">Strava</a>
+        <a href="https://www.komoot.com" class="trainins__link">Komoot</a>
+      </p>
+    </div>
+    <img src="./images/trainins-image.png" class="trainins__landscape" alt="Дорога в гору">
+  </section>
+  <footer class="footer">
+    <div class="footer__subscribe-container">
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <form name="email-send-form" class="footer__form">
+        <fieldset class="footer__input-container">
+          <input name="email-send-form__email-text-input" type="text" required placeholder="Ваш e-mail"
+            class="footer__email-input">
+          <input name="email-send-form__submit-button" type="submit" class="footer__submit" value="">
+        </fieldset>
+      </form>
+      <p class="footer__copyright">© Road Club 2021</p>
+    </div>
+    <div class="day-time-change day-time-change__position_footer">
+      <img src="./images/sun.svg" alt="солнышко" class="day-time-change__sun">
+      <div class="day-time-change__checkbox">
+        <input type="checkbox" id="unchecked" class="day-time-change__checkbox-input" />
+        <label for="unchecked" class="day-time-change__checkbox-label"></label>
+      </div>
+      <img src="./images/moon.svg" alt="лунышко" class="day-time-change__moon">
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="./scripts/slick.min.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
